@@ -1,7 +1,30 @@
+.hero{
+    background-color: #0E0F1A;
+    color: #fff;
+    padding: 200px;
+    text-align: center;
+}
+
+.cuz-nav-bg{
+    background-color: #0E0F1A;
+}
+
+.sections{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .heading{
     font-family: 'Playfair Display', serif;
     color: #fff;
     font-size: 64px;
+}
+
+.sub-heading{
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    margin-bottom: 100px;
 }
 
 .para{
