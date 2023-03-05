@@ -10,14 +10,23 @@
 }
 
 .sections{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .heading{
     font-family: 'Playfair Display', serif;
     color: #fff;
     font-size: 64px;
+}
+
+.title-hash::after{
+content: '#';
+color: aqua;
+}
+
+.sub-heading:hover + .title-hash::after{
+    color: rgba(207, 207, 207, 0.815)a(255, 0, 0, 0.322);
 }
 
 .sub-heading{
@@ -32,3 +41,69 @@
     color:#fff;
     font-size: 40px;
 }
+
+.borderDiv{
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 30px;
+}
+.bi{
+    padding-left: 5px;
+}
+
+.project-title{
+    color:#4385F5;
+    font-weight: 700;
+}
+
+.coz-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.text-justify {
+    text-align: justify;
+  }
+  
+.secc-one{
+    margin-top: 0px;
+}
+
+.round{
+    border-radius: 20px;
+}
+
+.abt-me-btns{
+    margin-bottom: 20px;
+}
+
+.abt-me-img-1{
+    display: none;
+}
+.abt-me-img-2{
+    display: block;
+}
+
+
+ @media only screen and (max-width: 600px)
+ {
+    .secc-one{
+        margin-top: 50px;
+    }
+    .sections {
+        padding-top:0px;
+        padding-bottom: 50px;
+    }
+
+    .abt-me-btns{
+       display: flex;
+       justify-content: space-around;
+    }
+
+    .abt-me-img-1{
+        display: block;
+    }
+    .abt-me-img-2{
+        display: none;
+    }
+ }
