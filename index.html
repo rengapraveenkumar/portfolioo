@@ -16,6 +16,17 @@
       crossorigin="anonymous"
     />
 
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href=
+"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
     <title>Portfolio</title>
 
     <!-- google fonts -->
@@ -29,7 +40,7 @@
   <body>
     <!-- nav bar starts -->
     <section>
-      <nav class="navbar navbar-expand-lg navbar-dark cuz-nav-bg fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark cuz-nav-bg fixed-top py-lg-4">
         <div class="container">
           <a class="navbar-brand" href="#">Renga Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -42,9 +53,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto mb-2 mb-lg-0">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Projects</a>
-              <a class="nav-link" href="#">Skills</a>
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#aboutme">About Me</a>
               <a class="nav-link" href="#">Resume</a>
               <a class="nav-link" href="#">Press</a>
               <a class="nav-link" href="#">Intrest</a>
@@ -67,43 +78,85 @@
     <!-- hero section ends -->
 
     <!-- projects start -->
-    <div class="container-sm" style="background-color: black; padding: 20px;"></div>
+    <section class="sections secc-one" id="projects">  
+      <div class="container">
+        
+        <h3 class="sub-heading">Projects</h3>
+
+        <div class="container">
+          <!-- flames project -->
+          <div class="row mb-5">
+            <div class="col-md-6 col-sm-12">
+              <img src="assets/flames portfolio thumnail.jpg" alt="flames portfolio thumnail" class="img-fluid">
+            </div>
+            <div class="col-md-6 col-sm-12 px-3">
+              <p class="project-title pt-3">Mobile App | Personal Project</p>
+              <h3 class="display-4 fw-bold">Flames</h3>
+              <p class="lh-lg text-justify">Find a relationship between a boy and a girl. not random results. Fully pure flames logic. it is really making fun with your friends and favorite person.</p>
+              <a href="#" class="btn btn-primary text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+                  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
+                </svg>
+                Open in Play Store
+              </a>
+            </div>
+          </div>
+          <!-- linkTable project -->
+          <div class="row mb-5 mt-5">
+            <div class="col-md-6 col-sm-12">
+              <img src="assets\linktable portfolio thumnail.png" alt="portfolio thumnail" class="img-fluid">
+            </div>
+            <div class="col-md-6 col-sm-12 px-3">
+              <p class="project-title pt-3">Web App | Personal Project</p>
+              <h3 class="display-4 fw-bold">Link Table</h3>
+              <p class="text-justify lh-lg">During online mode of classes we get lots and lots of different links were sent scrambled and difficult for us to get the correct link. So here I made a system called Link Table which made it easy to get links for each and every class. Fully organized and dynamic systems made Link Table unique. And it worked flawlessly during our academic year.</p>
+              <a href="#" class="btn btn-primary text-center">
+                <i class="bi bi-box-arrow-up-right pe-2"></i>
+                Open Live Site
+              </a>
+            </div>
+          </div>
+          <div class="d-flex align-self-center">
+            <a class="btn text-primary my-auto border border-dark" href="#">Load More</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- projects ends -->
 
     <!-- skills starts -->
-    <section class="sections">
+    <section class="sections" id="skills">
       <div class="container">
         <h3 class="sub-heading">Skills</h3>
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 mb-5">
               <h4 me-0>Design</h4>
               <div class="row d-inline-flex">
-                <div class="col">
+                <div class="col p-3">
                   <img src="https://img.icons8.com/color/96/null/adobe-photoshop--v1.png"/>
                 </div>
-                <div class="col">
+                <div class="col p-3">
                   <img src="https://img.icons8.com/color/96/null/adobe-premiere-pro--v1.png"/>
                 </div>
-                <div class="col">
+                <div class="col p-3">
                   <img src="https://img.icons8.com/color/96/null/figma--v1.png"/>
                 </div>
-                <div class="col">
+                <div class="col p-3">
                   <img src="https://img.icons8.com/fluency/96/null/canva.png"/>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-5">
               <h4>Development</h4>
               <div class="row d-inline-flex">
-                <div class="col">
+                <div class="col p-3">
                   <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/null/external-angular-a-typescript-based-open-source-web-application-framework-logo-shadow-tal-revivo.png"/>
                 </div>
-                <div class="col">
+                <div class="col p-3">
                   <img src="https://img.icons8.com/color/96/null/flutter.png"/>
                 </div>
-                <div class="col"><img src="https://img.icons8.com/color/96/null/bootstrap.png"/></div>
-                <div class="col"></div>
+                <div class="col p-3"><img src="https://img.icons8.com/color/96/null/bootstrap.png"/></div>
               </div>
             </div>
           </div>
@@ -111,6 +164,46 @@
       </div>
     </section>
     <!-- skills ends -->
+
+    <!-- about me starts -->
+    <section class="sections" id="aboutme"> 
+      <div class="container">
+        <h3 class="sub-heading">About Me</h3>
+        <div class="row">
+          
+          <div class="col-md-6 col-sm-12 abt-me-img-1 mb-3">
+            <img src="assets/profile.jpg" alt="" class=" round img-fluid" style="">
+          </div>
+
+          <div class="col-md-6 col-sm-12">
+            <p class="lh-lg text-justify">I'm a creative person who loves to think outside of the box. I'm always striving to understand the concept and purpose of the work and even in the learning process. As a self-motivated guy, I'm always pushing myself to do better and better. I'm always looking for ways to improve myself and my skills.</p>
+
+            <p class="lh-lg text-justify">One of the things I value most is the importance of skills. Whether it's learning a new programming language or honing my writing skills, I'm always striving to be the best I can be. And if there's something I don't know, I'm not afraid to ask. I believe that asking questions is a crucial part of the learning process, and I'm always seeking out new knowledge and information.</p>
+              
+            <p class="lh-lg text-justify">Finally, I'm an aggressive learner. I'm someone who's always hungry to learn more and do more, and I'm constantly seeking out new challenges to push myself out of my comfort zone. Whether it's learning a new language, taking on a new project, or trying out a new hobby, I'm always eager to dive in and see what I can learn.</p>
+            <div class="d-flex align-self-end abt-me-btns">
+                <a href=""# class="btn btn-primary">
+                  <i class="bi bi-at pe-2"></i>Contact
+                </a>
+                <a href=""# class="btn btn-primary">
+                  <i class="bi bi-download pe-2"></i>Download Resume
+                </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 abt-me-img-2">
+            <img src="assets/profile.jpg" alt="" class=" round img-fluid" alt="about me second img">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- about me ends -->
+
+    <!-- my resume starts -->
+    <section>
+    </section>
+    <!-- my resume ends -->
 
 
 
