@@ -84,6 +84,10 @@ color: aqua;
     display: block;
 }
 
+.even{
+    background-color: #ECF2FF;
+}
+
 .p-edu-year{
     color:#1565C0;
     font-size: 16;
@@ -101,6 +105,65 @@ color: aqua;
     font-weight: 600;
 }
 
+.colab-card{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.cont{
+    background-color: #0E0F1A;
+    color: #fff;
+}
+.cont-icon{
+    height: 100px;
+    width: 100px;
+    background-color: #ECF2FF;
+    border-radius: 50%;
+    position: relative;
+}
+
+.cont-icon i{
+    color: #000;
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+
+[id=projects] {
+    scroll-margin-top: 80px;
+  } 
+
+[id=skills]{
+    scroll-margin-top: 80px;
+}
+
+[id=aboutme]{
+    scroll-margin-top: 80px;
+}
+
+[id=resume]{
+    scroll-margin-top: 80px;
+}
+
+[id=press]{
+    scroll-margin-top: 80px;
+}
+
+[id=intrest]{
+    scroll-margin-top: 80px;
+}
+
+[id=intrest]{
+    scroll-margin-top: 80px;
+}
+
+
 
  @media only screen and (max-width: 600px)
  {
@@ -108,8 +171,8 @@ color: aqua;
         margin-top: 50px;
     }
     .sections {
-        padding-top:0px;
-        padding-bottom: 50px;
+        padding-top:25px;
+        padding-bottom: 25px;
     }
 
     .abt-me-btns{
@@ -122,5 +185,42 @@ color: aqua;
     }
     .abt-me-img-2{
         display: none;
+    }
+
+    .round{
+        border-radius: 10px;
+    }
+
+    .colab-card{
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
+    [id=projects] [id=skills] {
+        scroll-margin-top: 50px;
+      } 
+
+      [id=skills]{
+        scroll-margin-top: 50px;
+    }
+    
+    [id=aboutme]{
+        scroll-margin-top: 50px;
+    }
+    
+    [id=resume]{
+        scroll-margin-top: 50px;
+    }
+    
+    [id=press]{
+        scroll-margin-top: 50px;
+    }
+    
+    [id=intrest]{
+        scroll-margin-top: 50px;
+    }
+    
+    [id=intrest]{
+        scroll-margin-top: 50px;
     }
  }
