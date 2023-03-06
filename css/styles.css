@@ -84,6 +84,23 @@ color: aqua;
     display: block;
 }
 
+.p-edu-year{
+    color:#1565C0;
+    font-size: 16;
+    font-weight: 700;
+}
+
+.p-edu-title{
+    font-size: 24;
+    font-weight: 700;
+}
+
+.p-edu-sub-title{
+    color:#757575;
+    font-size: 16;
+    font-weight: 600;
+}
+
 
  @media only screen and (max-width: 600px)
  {
